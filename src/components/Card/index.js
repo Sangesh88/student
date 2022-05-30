@@ -9,7 +9,7 @@ return(
 <div className=" relative">
         <div className=""><img src={props.img}/></div>
         <div className="bg-red-600 absolute top-0 bottom-0 right-0 left-0 hover:opacity-40 opacity-50"></div>
-        <div className="absolute top-0 mt-8 px-4 text-white"> 
+        <div className="absolute top-0 mt-8 px-4 "> 
             <div className="text-2xl font-bold  ">{props.title}</div>
             <div className="text-sm mt-2  ">{props.paragraph}</div>
             <div className="text-xs mt-4 ">{props.footer}</div>

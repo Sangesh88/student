@@ -34,6 +34,17 @@ import Threestep from './Sections/Threestep';
 import WhatWeDo from './Sections/WhatWeDo';
 import YS from './Sections/YS';
 import News from './Sections/News';
+import Footer from './Sections/Footer';
+import Header10 from './Sections/Header10';
+import Agency from './Sections/Agency';
+import Offer from './Sections/Offer';
+import Brand from './Sections/Brand';
+import Silver from './Sections/Silveer';
+import Linoor from './Sections/Linoor';
+// import Header from './Sections';
+import Creative from './Sections/Creative';
+import Header11 from './Sections/Header11';
+import Service from './Sections/Service';
 
 
 // import Benifits from './Sections/Benifits';
@@ -185,7 +196,7 @@ function App() {
       <div>
         {/* <Sectioncard/> */}
       </div>
-      <div>
+      {/* <div>
         <Facecard/>
       </div>
       <div className="">
@@ -203,9 +214,36 @@ function App() {
       <div className="">
         <News/>
       </div>
-
-    
-   
+      <div>
+        <Footer/>
+      </div> */}
+{/* <div>
+  <Header10/>
+</div>
+<div>
+  <Agency/>
+</div>
+<div>
+  <Offer/>
+</div>
+<div>
+  <Brand/>
+</div>
+<div>
+  <Silver/>
+</div>
+<div>
+<Linoor/>
+</div> */}
+<div className=''>
+<Header11/>
+</div>
+<div>
+  <Creative/>
+</div>
+<div>
+  <Service/>
+</div>
     </>
   );
 }

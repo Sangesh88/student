@@ -1,3 +1,4 @@
+import Button from "../../components/Button"
 import Card from "../../components/Card"
 
 const Ourragents=()=>{
@@ -52,18 +53,39 @@ const Ourragents=()=>{
            {
             Card14DATA.map((d)=>{
                 <>
-                
+                <div className="w-40">
                 <Card type={d.type} tittle={d.tittle} img={d.img} paragraph={d.paragraph} rate={d.rate} f1={d.f1} f2={d.f2} f3={d.f3} footer={d.footer}/>
+                </div>
                 </>
             })
            }
        </div>
       
     </div>
-    <div className="flex mt-[550px] absolute left-0">
-           <div className=" w-96 h-96 bg-blue-50 "></div>
-           <div className="h-96 w-96 bg-blue-900 ml-10"></div>
+    <div className="">
+    <div className="relative flex">
+    <div className="flex mt-[550px] absolute left-0 ">
+           <div className=" w-[500px]  bg-blue-50 "><img src="imgh.jpg"className=""/></div>
+           <div className="bg-blue-900 absolute top-0 bottom-0 right-0 left-0 w-[500px] opacity-50"></div>
+           <div className="absolute top-0 mt-8 px-4 "> 
+            <div className="text-2xl font-bold text-blue-900 ">The Feacher Card</div>
+            <div className="text-sm mt-12  text-blue-50 ">the leap into electronic typesetting, remaining essentially <br/> unchanged the leap into electronic typesetting,<br/> remaining essentially unchanged the leap into electronic typesetting,<br/> remaining essentially unchanged</div>
+            <div className="text-2xl bg-blue-900 w-32 text-center text-blue-50  mt-20 ">Rate-500 </div>
+        </div>
        </div>
+       </div>
+       <div className="relative ml-[600px]">
+    <div className="flex mt-[550px] absolute left-0 ">
+           <div className=" w-[500px]  bg-blue-50 "><img src="imgh.jpg"className=""/></div>
+           <div className="bg-blue-200 absolute top-0 bottom-0 right-0 left-0 w-[500px] opacity-50"></div>
+           <div className="absolute top-0 mt-8 px-4 "> 
+            <div className="text-2xl font-bold text-blue-900 ">The Feacher Card</div>
+            <div className="text-sm mt-12  text-blue-900 ">the leap into electronic typesetting, remaining essentially <br/> unchanged the leap into electronic typesetting,<br/> remaining essentially unchanged the leap into electronic typesetting,<br/> remaining essentially unchanged</div>
+            <div className="text-2xl bg-blue-900 w-32 text-center text-blue-50  mt-20 ">Rate-500 </div>
+        </div>
+       </div>
+       </div>
+        </div>
      
     
 </div>
