@@ -7,45 +7,52 @@ import './App.css';
 // import Services from './Sections/Services';
 // import Sales from './components/Sales';
 // import Card from './components/Card';
-import Header2 from './components/Header2/iindex';
-import HeroArea2 from './components/Hearoarea2';
-import Tableitem from './components/Tableitem';
-import Boxtag from './Sections/Boxtag';
-import Carddo from './Sections/Carddo';
-import Cardthree from './Sections/Cardthree';
-import CardTrick from './Sections/CardTrick';
-import Cleaning_Services from './Sections/Cleaning_Services';
-import Facecard from './Sections/Facecard';
-import Featured from './Sections/Featured';
-import Form from './Sections/Form';
-import Header4 from './Sections/Header4';
-import Heroarea2 from './Sections/Hearoarea';
-import Logo1 from './Sections/Logo1'; 
-import Navarea from './Sections/Navarea';
-import Navsection from './Sections/Navsaction';
-import Ourragents from './Sections/Ourragents';
-import Section24 from './Sections/Section24';
-import Section5 from './Sections/Section5';
-import Sectioncard from './Sections/Sectioncard';
-import Serviceaera from './Sections/Servicearea';
-import Sidebar from './Sections/Sidebar';
-import Tagcard from './Sections/Tagcard';
-import Threestep from './Sections/Threestep';
-import WhatWeDo from './Sections/WhatWeDo';
-import YS from './Sections/YS';
-import News from './Sections/News';
-import Footer from './Sections/Footer';
-import Header10 from './Sections/Header10';
-import Agency from './Sections/Agency';
-import Offer from './Sections/Offer';
-import Brand from './Sections/Brand';
-import Silver from './Sections/Silveer';
-import Linoor from './Sections/Linoor';
+// import Header2 from './components/Header2/iindex';
+// import HeroArea2 from './components/Hearoarea2';
+// import Tableitem from './components/Tableitem';
+// import Boxtag from './Sections/Boxtag';
+// import Carddo from './Sections/Carddo';
+// import Cardthree from './Sections/Cardthree';
+// import CardTrick from './Sections/CardTrick';
+// import Cleaning_Services from './Sections/Cleaning_Services';
+// import Facecard from './Sections/Facecard';
+// import Featured from './Sections/Featured';
+// import Form from './Sections/Form';
+// import Header4 from './Sections/Header4';
+// import Heroarea2 from './Sections/Hearoarea';
+// import Logo1 from './Sections/Logo1'; 
+// import Navarea from './Sections/Navarea';
+// import Navsection from './Sections/Navsaction';
+// import Ourragents from './Sections/Ourragents';
+// import Section24 from './Sections/Section24';
+// import Section5 from './Sections/Section5';
+// import Sectioncard from './Sections/Sectioncard';
+// import Serviceaera from './Sections/Servicearea';
+// import Sidebar from './Sections/Sidebar';
+// import Tagcard from './Sections/Tagcard';
+// import Threestep from './Sections/Threestep';
+// import WhatWeDo from './Sections/WhatWeDo';
+// import YS from './Sections/YS';
+// import News from './Sections/News';
+// import Footer from './Sections/Footer';
+// import Header10 from './Sections/Header10';
+// import Agency from './Sections/Agency';
+// import Offer from './Sections/Offer';
+// import Brand from './Sections/Brand';
+// import Silver from './Sections/Silveer';
+// import Linoor from './Sections/Linoor';
 // import Header from './Sections';
 import Creative from './Sections/Creative';
 import Header11 from './Sections/Header11';
 import Service from './Sections/Service';
-
+import About from './Sections/About';
+import Carestudy from './Sections/Care study';
+import Project from './Sections/Project';
+import Pricing from './Sections/pricing/indexx';
+import Client from './Sections/Client';
+import Meet from './Sections/meet';
+import AllBlog from './Sections/All Blog';
+import Submit from './Sections/Submit';
 
 // import Benifits from './Sections/Benifits';
 // import Become from './Sections/Become';
@@ -217,24 +224,6 @@ function App() {
       <div>
         <Footer/>
       </div> */}
-{/* <div>
-  <Header10/>
-</div>
-<div>
-  <Agency/>
-</div>
-<div>
-  <Offer/>
-</div>
-<div>
-  <Brand/>
-</div>
-<div>
-  <Silver/>
-</div>
-<div>
-<Linoor/>
-</div> */}
 <div className=''>
 <Header11/>
 </div>
@@ -244,6 +233,31 @@ function App() {
 <div>
   <Service/>
 </div>
+<div>
+  <About/>
+</div>
+<div>
+  <Carestudy/>
+</div>
+<div>
+  <Project/>
+</div>
+<div>
+  <Pricing/>
+</div>
+<div>
+  <Client/>
+</div>
+<div>
+  <Meet/>
+</div>
+<div>
+  <AllBlog/>
+</div>
+<div>
+  <Submit/>
+</div>
+
     </>
   );
 }

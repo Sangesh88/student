@@ -19,7 +19,7 @@ const Header11=()=>{
             <div className="w-3/6 flex space-x-8">
         {DATA.map((d)=>(
             <div className="">
-        <Navigation Navname={d.Navname} className="text-gray-100 hover:text-[#75DAB4] cursor-pointer"/>
+        <Navigation Navname={d.Navname} className="text-gray-200 hover:text-[#75DAB4] cursor-pointer"/>
         </div>
         ))
         }
